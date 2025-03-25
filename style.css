@@ -1,0 +1,211 @@
+/* 
+
+COLOR MAIN
+#2F4858
+#F26419
+
+CHIARI - BACKGROUND
+#fef0e8
+#ebf0f3
+
+CHIARI - TEXT
+#445a69
+#f58347
+
+
+/*  UI */
+
+/* GENERAL STYLE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+/* NAV SECTION */
+
+.nav-section {
+  background-color: #f58347;
+  letter-spacing: 0.3rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  padding: 2.2rem;
+
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hana-logo {
+  margin-right: 65rem;
+  margin-left: 2rem;
+}
+
+.hana-logo p {
+  color: #2f4858;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1rem;
+}
+
+.nav:link,
+.nav:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav:active,
+.nav:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  padding: 8rem;
+  background-color: #ebf0f3;
+}
+
+.hero-container {
+  max-width: 130rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10rem;
+  align-items: center;
+}
+
+.hero-sx {
+  margin-left: 4rem;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero-title {
+  color: #2f4858;
+  font-size: 6rem;
+  line-height: 1.1;
+  letter-spacing: -0.5;
+  margin-bottom: 3.5rem;
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, #2f4858, #f26419);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
+
+.header-text,
+em {
+  font-size: 2rem;
+  color: #445a69;
+  line-height: 1.6;
+}
+
+.header-text p {
+  margin-bottom: 1rem;
+  /* Aggiunge spazio tra i paragrafi */
+}
+
+.em {
+  margin-right: 0.5rem;
+  /* Per dare uno spazio in più nel saluto */
+}
+
+.btn-hero:link,
+.btn-hero:visited {
+  display: inline-block;
+  font-size: 2rem;
+  background-color: #f58347;
+  color: #fff;
+  padding: 1.6rem 3rem;
+  margin-top: 3.5rem;
+  text-decoration: none;
+}
+
+.btn-hero:hover,
+.btn-hero:active {
+  background-color: #fff;
+  color: #f58347;
+  text-decoration: none;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section {
+  background-color: #fef0e8;
+  padding: 9rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #2f4858;
+}
+
+.author-icon {
+  width: 3%;
+  margin-right: 1rem;
+  /* Margine a destra all'icona per separarla dai messaggi */
+}
+
+blockquote {
+  font-size: 5.3rem;
+  color: #f58347;
+  text-align: center;
+  margin: 12.6rem 16rem;
+  margin-bottom: 15.2rem;
+  font-style: italic;
+}
+
+.quote-bold {
+  font-weight: 500;
+  color: #445a69;
+}
+
+.mex-author-container {
+  margin: 2rem 15rem;
+}
+
+.mex-author {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.author-intro {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2f4858;
+}
+
+.author-mex {
+  font-size: 1.63rem;
+  line-height: 1.8;
+  color: #445a69;
+  margin-top: 1.3rem;
+}
+
+/* TABS SECTION */
+
+.tabs-section {
+  background-color: #ebf0f3;
+  padding: 9rem;
+}
